@@ -882,7 +882,7 @@
                 "quests": [
                     {
                         "id": "q2-15-1",
-                        "name": "Go to Dreadnought Vanguard",
+                        "name": "Go to Dreadnought Vanguard ( Deleted in 0.5 )",
                         "type": "run"
                     },
                     {
@@ -1015,14 +1015,14 @@
                     },
                     {
                         "id": "q3-4-3",
-                        "name": "Go to Azak Bog",
+                        "name": "Go to Azak Bog ( Entrance in Maltan Waterways after 0.5 ) ",
                         "type": "run"
                     }
                 ]
             },
             {
                 "id": "m3-5",
-                "name": "Azak Bog",
+                "name": "Azak Bog ( Entrance in Maltan Waterways after 0.5 )",
                 "image": "asset/layouts/act3/A3-14-Azak-Bog.webp",
                 "quests": [
                     {
@@ -1190,7 +1190,7 @@
                     },
                     {
                         "id": "q3-9-2",
-                        "name": "Go to Matlan Waterways (nearby)",
+                        "name": "Go to Matlan Waterways ( Entrance in Jungle Ruins after 0.5 )",
                         "type": "run"
                     }
                 ]
