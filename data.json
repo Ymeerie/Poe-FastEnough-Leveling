@@ -1,0 +1,2675 @@
+[
+    {
+        "id": "act1",
+        "name": "Act 1",
+        "maps": [
+            {
+                "id": "m1-1",
+                "name": "Clearfell Encampment",
+                "quests": [
+                    {
+                        "id": "q1-1-1",
+                        "name": "Kill Bloated Miller",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-1-2",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-1-3",
+                        "name": "Go to Clearfell",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-2",
+                "name": "Clearfell",
+                "image": [
+                    "/asset/layouts/act1/Clearfell-Seed-1-Pilot.webp",
+                    "/asset/layouts/act1/Clearfell-Seed-2-Pilot.webp"
+                ],
+                "imageDescriptions": [
+                    "Boss: +10% Cold Res <br> Mysterious Campsite - Skill Gem (Lvl 1)",
+                    "Boss: +10% Cold Res <br> Mysterious Campsite - Skill Gem (Lvl 1)"
+                ],
+                "quests": [
+                    {
+                        "id": "q1-2-1",
+                        "name": "Kill Beira of the Rotten Pack (Cold Resistance bonus)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-2-2",
+                        "name": "Go to Grelwood",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-3",
+                "name": "Grelwood",
+                "image": "asset/layouts/act1/Grelwood-Pilot.png",
+                "imageDescriptions": [
+                    "Each Point of interest has a chance for:<br>Tree of Souls + Waypoint<br>Boss (Brambleghast) - Uncut Skill Gem (Lvl 1)<br>Grim Tangle Entrance<br>Areagne’s Hut - Flasks and Uncut Skill Gem (Lvl 1)"
+                ],
+                "quests": [
+                    {
+                        "id": "q1-3-1",
+                        "name": "Find Way Point - Summon Una (near WP)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-3-2",
+                        "name": "Go to Red Vale (opposite side)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-4",
+                "name": "Red Vale",
+                "image": "asset/layouts/act1/Red-Vale-Pilot.webp",
+                "quests": [
+                    {
+                        "id": "q1-4-1",
+                        "name": "Activate 3 Obelisks of Rust",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-4-2",
+                        "name": "Kill The Rust King",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-4-3",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-4-4",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-4-5",
+                        "name": "Portal to Grelwood",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m1-5",
+                "name": "Grelwood",
+                "image": "asset/layouts/act1/Grelwood-Pilot.png",
+                "quests": [
+                    {
+                        "id": "q1-5-1",
+                        "name": "Activate Runic Seals",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-5-2",
+                        "name": "Portal To Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-5-3",
+                        "name": "Talk NPC",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-5-4",
+                        "name": "Portal to Grelwood",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-5-5",
+                        "name": "Go to Grim Tangle (center of zone) ",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-6",
+                "name": "Grim Tangle",
+                "image": "asset/layouts/act1/Grim-Tangle-Pilot.webp",
+                "quests": [
+                    {
+                        "id": "q1-6-1",
+                        "name": "Summon Una",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-6-2",
+                        "name": "Go to Cemetery of the Eternals",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-7",
+                "name": "Cemetery of the Eternals",
+                "image": [
+                    "asset/layouts/act1/Cemetery-Pilot.webp",
+                    "asset/layouts/act1/Praetor-Pilot.webp",
+                    "asset/layouts/act1/Consort-Pilot.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q1-7-1",
+                        "name": "Talk to Lachlann > Find Mausoleums ",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-7-2",
+                        "name": "Kill Draven, the Eternal Praetor - Loot",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-7-3",
+                        "name": "Kill Asinia, the Praetor's Consort - Loot",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-7-4",
+                        "name": "Go to Cemetery > Talk to Lachlann",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-7-5",
+                        "name": "Kill Lachlann of Endless Lament > Loot",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-7-6",
+                        "name": "Talk to NPCs in TOWN",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-7-7",
+                        "name": "Portal to Hunting Grounds",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m1-8",
+                "name": "Hunting Grounds",
+                "image": "asset/layouts/act1/Hunting-Grounds-Pilot.webp",
+                "quests": [
+                    {
+                        "id": "q1-8-1",
+                        "name": "Talk to Delwyn",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-8-2",
+                        "name": "Kill The Crowbell (2 skillpoints)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-8-3",
+                        "name": "Go to Freythorn",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-9",
+                "name": "Freythorn",
+                "quests": [
+                    {
+                        "id": "q1-9-1",
+                        "name": "Complete all rituals",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-9-2",
+                        "name": "Kill The King in the Mists (30 Spirit bonus)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-9-3",
+                        "name": "Talk to Finn",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-9-4",
+                        "name": "Portal to Town > Talk to NPCs > Waypoint to Hunting Grounds",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-9-5",
+                        "name": "Go to Ogham Farmlands",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-10",
+                "name": "Ogham Farmlands + Ogham Village",
+                "image": [
+                    "asset/layouts/act1/Ogham-Farmlands-Pilot.webp",
+                    "asset/layouts/act1/Ogham-Village-Pilot.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q1-10-1",
+                        "name": "Take Una's Lute from Una's Lute Box (before farms)",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q1-10-2",
+                        "name": "Go to Ogham Village",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q1-10-3",
+                        "name": " !! ONCE PER LEAGUE !! : Find Smithing Tools (salvage bench) > Portal to Town > Talk to Renly > Return",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q1-10-4",
+                        "name": "Kill The Executioner (end of zone)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-10-5",
+                        "name": "Talk to Leitis",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-10-6",
+                        "name": "Go to Manor Ramparts",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m1-11",
+                "name": "Manor Ramparts + Manor",
+                "image": [
+                    "asset/layouts/act1/Manor-Ramparts-Pilot.webp",
+                    "asset/layouts/act1/Ogham-Manor-First.webp",
+                    "asset/layouts/act1/Ogham-Manor-Second.webp",
+                    "asset/layouts/act1/Ogham-Manor-Third.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q1-11-1",
+                        "name": "Tag WP - Go to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-11-2",
+                        "name": "Talk to NPCs (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q1-11-3",
+                        "name": "WP to Manor Ramparts",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-11-4",
+                        "name": "Go to Ogham Manor",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q1-11-5",
+                        "name": "Kill Candlemass, the Living Rite (Life bonus)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-11-6",
+                        "name": "Kill Count Geonor (Down stairs to Arena)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q1-11-7",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q1-11-8",
+                        "name": "Talk to NPCs - Talk to Hooded One - Go to Act 2",
+                        "type": "chat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act2",
+        "name": "Act 2",
+        "maps": [
+            {
+                "id": "m2-1",
+                "name": "Vastiri Outskirts",
+                "image": "asset/layouts/act2/A2-01-Vastiri-Outskirts-No-Text.png",
+                "quests": [
+                    {
+                        "id": "q2-1-1",
+                        "name": "Kill Rathbreaker",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-1-2",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-1-3",
+                        "name": "Talk to Zarka",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-1-4",
+                        "name": "Go to Ardura Caravan",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-1-5",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-1-6",
+                        "name": "Select Desert Map to Mawdun Quarry",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-2",
+                "name": "Mawdun Quarry + Mawdun Mine",
+                "image": [
+                    "asset/layouts/act2/A2-02-Mawdun-Quarry.webp",
+                    "asset/layouts/act2/A2-03-Mawdun-Mine.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-2-1",
+                        "name": "Go to Mawdun Mine",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-2-2",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-2-3",
+                        "name": "Kill Rudja, the Dread Engineer",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-2-4",
+                        "name": "Open Cage - Talk to Risu",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-2-5",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-2-6",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-2-7",
+                        "name": "Desert Map to Halani Gates",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-3",
+                "name": "Halani Gates",
+                "image": [
+                    "asset/layouts/act2/A2-05-Halani-Gates.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-3-1",
+                        "name": "Talk to Asala",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-3-2",
+                        "name": "Go to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-3-3",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-3-4",
+                        "name": "Desert Map to Traitor's Passage",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-4",
+                "name": "Traitor's Passage",
+                "image": [
+                    "asset/layouts/act2/A2-04-Traitors-Passage.png",
+                    "asset/layouts/act2/A2-04-Traitors-Passage-ESS.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-4-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-4-2",
+                        "name": "Activate Ancient Seal (middle of zone)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-4-3",
+                        "name": "Activate 3 Runic Seals",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-4-4",
+                        "name": "Kill Balbala, the Traitor",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-4-5",
+                        "name": "Take Balbala's Barya",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-4-6",
+                        "name": "Go to Halani Gates",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-5",
+                "name": "Halani Gates",
+                "image": [
+                    "asset/layouts/act2/A2-05-Halani-Gates.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-5-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-5-2",
+                        "name": "Summon Asala",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-5-3",
+                        "name": "Defeat Jamanra, the Risen King",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-5-4",
+                        "name": "Go to sandstorm",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-5-5",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-5-6",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-5-7",
+                        "name": "Desert Map to Keth",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-6",
+                "name": "Keth",
+                "image": [
+                    "asset/layouts/act2/A2-06-Keth.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-6-1",
+                        "name": "Kill serpents for \"Kabala Clan Relic\"",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-6-2",
+                        "name": "Kill Kabala, Constrictor Queen (2 skillpoints)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-6-3",
+                        "name": "Go to Lost City",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-7",
+                "name": "Lost City + Heart of Keth",
+                "image": [
+                    "asset/layouts/act2/A2-07-Lost-City.png",
+                    "asset/layouts/act2/A2-08-Buried-Shrines.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-7-1",
+                        "name": "Go to Buried Shrines",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-7-2",
+                        "name": "Go to Heart of Keth",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-7-3",
+                        "name": "Kill Azarian, the Forsaken Son",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-7-4",
+                        "name": "Talk to Water Goddess",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-7-5",
+                        "name": "Take Everburning Cinders and Ignite Water Goddess",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-7-6",
+                        "name": "Take The Essence of Water",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-7-7",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-7-8",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-7-9",
+                        "name": "Desert Map to Mastodon Badlands",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-8",
+                "name": "Mastodon Badlands",
+                "image": [
+                    "asset/layouts/act2/A2-13-Mastodon-Badlands.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-8-1",
+                        "name": "Go to Lightless Passage (center of zone)",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-8-2",
+                        "name": "Go to Well of Souls",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-8-3",
+                        "name": "Speak to Lurking Creature (Reveal Desecrated mods)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-8-4",
+                        "name": "Speak to Sin",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-8-5",
+                        "name": "Portal to Lightless Passage",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-8-6",
+                        "name": "Return to Mastodon Badlands",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-8-7",
+                        "name": "Go to Bone Pits",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-9",
+                "name": "Bone Pits",
+                "image": [
+                    "asset/layouts/act2/A2-14-Bone-Pits.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-9-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-9-2",
+                        "name": "Kill monsters for Sun Clan Relic",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-9-3",
+                        "name": "Go to Blackrib Pit",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-9-4",
+                        "name": "Kill Iktab, the Deathlord and Ekbab, Ancient Steed",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-9-5",
+                        "name": "Take Mastodon Tusks",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-9-6",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-9-7",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-9-8",
+                        "name": "Desert Map to Valley of Titans",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-10",
+                "name": "Valley of Titans",
+                "image": [
+                    "asset/layouts/act2/A2-09-Valley-Of-The-Titans.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-10-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-10-2",
+                        "name": "Activate Medallion near WP (Charm bonus, can be changed)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-10-3",
+                        "name": "Activate 3 Ancient Seals around the zone ",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-10-4",
+                        "name": "Enter Titan Grotto",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-11",
+                "name": "Titan Grotto",
+                "image": [
+                    "asset/layouts/act2/A2-10-Titan-Grotto.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-11-1",
+                        "name": "Kill Zalmarath, the Colossus",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-11-2",
+                        "name": "Take The Flame Ruby",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-11-3",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-11-4",
+                        "name": "Talk to NPCs for The Horn of the Vastiri",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-11-5",
+                        "name": "Desert Map to Traitor's Passage",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-11-6",
+                        "name": "Go to the front of the caravan and Sound The Horn",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-11-7",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-11-8",
+                        "name": "Desert Map to Deshar",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-12",
+                "name": "Deshar",
+                "image": [
+                    "asset/layouts/act2/A2-11-Deshar.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-12-1",
+                        "name": "Find Lailuma's Body (Fallen Dekhara) - Take Final Letter",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-12-2",
+                        "name": "Kill Hunin, Storm Caller and Mugin, Frost Bringer",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-12-3",
+                        "name": "Take Djinn Barya",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-12-4",
+                        "name": "Go to Path of Mourning",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-13",
+                "name": "Path of Mourning",
+                "image": [
+                    "asset/layouts/act2/A2-12-Path-Of-Mourning.png"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-13-1",
+                        "name": "Go to Spires of Deshar",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m2-14",
+                "name": "Spires of Deshar",
+                "image": [
+                    "asset/layouts/act2/A2-15-Spires-of-Deshar.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-14-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-14-2",
+                        "name": "Activate Sisters of Garukhan shrine (Lightning Resistance boost)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-14-3",
+                        "name": "Kill Tor Gul, the Defiler",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-14-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-14-5",
+                        "name": "Talk to NPCs (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-14-6",
+                        "name": "Desert Map to Dreadnought",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m2-15",
+                "name": "Dreadnought",
+                "image": [
+                    "asset/layouts/act2/A2-16-Dreadnought.webp"
+                ],
+                "quests": [
+                    {
+                        "id": "q2-15-1",
+                        "name": "Go to Dreadnought Vanguard",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q2-15-2",
+                        "name": "Tag Waypoint",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q2-15-3",
+                        "name": "Kill Jamanra, the Abomination",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q2-15-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q2-15-5",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-15-6",
+                        "name": "Talk to Asala",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q2-15-7",
+                        "name": "Go to Act 3",
+                        "type": "portal"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act3",
+        "name": "Act 3",
+        "maps": [
+            {
+                "id": "m3-1",
+                "name": "Sandswept Marsh",
+                "image": "asset/layouts/act3/A3-01-Sandswept-Marsh.webp",
+                "quests": [
+                    {
+                        "id": "q3-1-1",
+                        "name": "Go to Ziggurat Encampment",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q3-1-2",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-1-3",
+                        "name": "Go to Jungle Ruins (top)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-2",
+                "name": "Jungle Ruins",
+                "image": "asset/layouts/act3/A3-02-Jungle-Ruins-2.webp",
+                "quests": [
+                    {
+                        "id": "q3-2-1",
+                        "name": "Kill Mighty Silverfist (2 skillpoints)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-2-2",
+                        "name": "Go to Venom Crypts (center of zone near WP)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-3",
+                "name": "Venom Crypts",
+                "quests": [
+                    {
+                        "id": "q3-3-1",
+                        "name": "Prepare for Battle",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-3-2",
+                        "name": "Take Corpse-snake Venom from Corpse (end of zone)",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-3-3",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-3-4",
+                        "name": "Talk to Servi (Various boosts, cannot be changed)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-3-5",
+                        "name": "Portal to Jungle Ruins",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-3-6",
+                        "name": "Go to Infested Barrens (opposite from WP)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-4",
+                "name": "Infested Barrens",
+                "image": "asset/layouts/act3/A3-03-Infested-Barrens.webp",
+                "quests": [
+                    {
+                        "id": "q3-4-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-4-2",
+                        "name": "Summon Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-4-3",
+                        "name": "Go to Azak Bog",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-5",
+                "name": "Azak Bog",
+                "image": "asset/layouts/act3/A3-14-Azak-Bog.webp",
+                "quests": [
+                    {
+                        "id": "q3-5-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-5-2",
+                        "name": "Summon Servi",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-5-3",
+                        "name": "Kill Ignagduk, the Bog Witch (30 Spirit bonus)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-5-4",
+                        "name": "Take Ignagduk's Ghastly Spear",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-5-5",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-5-6",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-5-7",
+                        "name": "Portal to Infested Barrens",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-5-8",
+                        "name": "Go to Chimeral Wetlands (opposite Azak Bog)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-6",
+                "name": "Chimeral Wetlands",
+                "image": "asset/layouts/act3/A3-04-Chimeral Wetlands.png",
+                "quests": [
+                    {
+                        "id": "q3-6-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-6-2",
+                        "name": "Kill Xyclucian, the Chimera",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-6-3",
+                        "name": "Take Chimeral Inscribed Ultimatum",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-6-4",
+                        "name": "Go to Jiquani's Machinarium (within boss arena)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-7",
+                "name": "Jiquani's Machinarium",
+                "image": "asset/layouts/act3/A3-05-Jinquanis-Machinarium.webp",
+                "quests": [
+                    {
+                        "id": "q3-7-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-7-2",
+                        "name": "Summon Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-7-3",
+                        "name": "Take Small Soul Core 2x",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-7-4",
+                        "name": "Activate Stone Altar 2x",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-7-5",
+                        "name": "Kill Blackjaw, the Remnant (Fire Resistance boost)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-7-6",
+                        "name": "Go to Jiquani's Sanctum",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-8",
+                "name": "Jiquani's Sanctum",
+                "image": "asset/layouts/act3/A3-06-Jinquanis-Sanctum.png",
+                "quests": [
+                    {
+                        "id": "q3-8-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-8-2",
+                        "name": "Summon Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-8-3",
+                        "name": "Find 3 Medium Soul Cores",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-8-4",
+                        "name": "Start 2 Generators (corners of zone)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-8-5",
+                        "name": "Activate Large Soul Core near Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-8-6",
+                        "name": "Kill Zicoatl, Warden of the Core",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-8-7",
+                        "name": "Take Large Soul Core",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-8-8",
+                        "name": "Portal to Infested Barrens",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m3-9",
+                "name": "Infested Barrens",
+                "image": "asset/layouts/act3/A3-03-Infested-Barrens.webp",
+                "quests": [
+                    {
+                        "id": "q3-9-1",
+                        "name": "Activate Stone Altar (near WP) ",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-9-2",
+                        "name": "Go to Matlan Waterways (nearby)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-10",
+                "name": "Matlan Waterways",
+                "image": "asset/layouts/act3/A3-07-Matlan-Waterways.webp",
+                "quests": [
+                    {
+                        "id": "q3-10-1",
+                        "name": "Pull all the Canal Levers",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-10-2",
+                        "name": "Pull the large Canal Lever (end of zone)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-10-3",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-10-4",
+                        "name": "Go down the stairs and Talk Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-10-5",
+                        "name": "Go to Drowned City.",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-11",
+                "name": "Drowned City",
+                "image": "asset/layouts/act3/A3-Drowned-City-Update.webp",
+                "quests": [
+                    {
+                        "id": "q3-11-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-11-2",
+                        "name": "Summon Oswald",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-11-3",
+                        "name": "Go to Molten Vault",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-12",
+                "name": "Once per league:Molten Vault",
+                "quests": [
+                    {
+                        "id": "q3-12-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-12-2",
+                        "name": "Use Lever",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-12-3",
+                        "name": "Pull Sluice Gate Lever",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-12-4",
+                        "name": "Kill Mektul, the Forgemaster",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-12-5",
+                        "name": "Take The Hammer of Kamasa",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-12-6",
+                        "name": "Talk to Oswald (reforging bench)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-12-7",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-12-8",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-12-9",
+                        "name": "Portal to Drowned City",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-12-10",
+                        "name": "Go to Apex of Filth",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-13",
+                "name": "Apex of Filth",
+                "image": "asset/layouts/act3/A3-Apex-of-Filth-Updated.webp",
+                "quests": [
+                    {
+                        "id": "q3-13-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-13-2",
+                        "name": "Kill Queen of Filth (end of zone)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-13-3",
+                        "name": "Take Temple Door Idol",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-13-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-13-5",
+                        "name": "Go down the stairs",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q3-13-6",
+                        "name": "Talk to Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-13-7",
+                        "name": "Open Door",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-13-8",
+                        "name": "Go to Temple of Kopec",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-14",
+                "name": "Temple of Kopec",
+                "image": "asset/layouts/act3/A3-10-Temple-of-Kopec.webp",
+                "quests": [
+                    {
+                        "id": "q3-14-1",
+                        "name": "Climb Stairs twice (corner of pyramid)",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q3-14-2",
+                        "name": "Kill Ketzuli, High Priest of the Sun",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-14-3",
+                        "name": "Summon Alva",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-14-4",
+                        "name": "Investigate Platform - Enter gateway",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-14-5",
+                        "name": "Tag WP (behind gateway)",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-14-6",
+                        "name": "Go down stairs",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q3-14-7",
+                        "name": "Go to Utzaal",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-15",
+                "name": "Utzaal",
+                "image": "asset/layouts/act3/a3-utzaal.webp",
+                "quests": [
+                    {
+                        "id": "q3-15-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-15-2",
+                        "name": "Kill Viper Napuatzi ",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-15-3",
+                        "name": "Kill monsters for Sacrificial Heart",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q3-15-4",
+                        "name": "Go to Aggorat",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-16",
+                "name": "Aggorat",
+                "image": "asset/layouts/act3/A3-12-Aggorat.png",
+                "quests": [
+                    {
+                        "id": "q3-16-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-16-2",
+                        "name": "Go to altar",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q3-16-3",
+                        "name": "Take Sacrificial Dagger",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-16-4",
+                        "name": "Place and stab Sacrificial Heart (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-16-5",
+                        "name": "Go to Black Chambers",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m3-17",
+                "name": "Black Chambers",
+                "image": "asset/layouts/act3/A3-13-Black-Chambers.png",
+                "quests": [
+                    {
+                        "id": "q3-17-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-17-2",
+                        "name": "Kill Doryani, Royal Thaumaturge and Doryani's Triumph",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q3-17-3",
+                        "name": "Talk to Doryani",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-17-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q3-17-5",
+                        "name": "Talk to Doryani for apocalypse",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-17-6",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q3-17-7",
+                        "name": "Talk to Alva - Go to Act 4",
+                        "type": "chat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act4",
+        "name": "Act 4",
+        "maps": [
+            {
+                "id": "m4-1",
+                "name": "Note :",
+                "quests": [
+                    {
+                        "id": "q4-1-1",
+                        "name": " Three out of the first four of these islands are essential for the main quest, but the required islands will change between leagues. One of these four islands also holds Matiki, who needs to be saved to access Eye of Hinekora. The island boss rewards also change between leagues. The optional bosses may be skipped.",
+                        "type": "warning"
+                    }
+                ]
+            },
+            {
+                "id": "m4-2",
+                "name": "Kingsmarch",
+                "quests": [
+                    {
+                        "id": "q4-2-1",
+                        "name": "Talk to NPCs for Book Charter",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-2-2",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-2-3",
+                        "name": "Sail to Kedge Bay",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-3",
+                "name": "Kedge Bay",
+                "image": "asset/layouts/act4/A4-03-Kedge Bay.webp",
+                "quests": [
+                    {
+                        "id": "q4-3-1",
+                        "name": "Go to Journey's End",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-4",
+                "name": "Journey's End",
+                "image": "asset/layouts/act4/A4-04-Journeys_End.webp",
+                "imageDescriptions": [
+                    "MAJOR CHANGE IN 0.4 : Completing the Dark Mists Quest (defeating Omniphobia) will now grant +2 Weapon Set Skill Points"
+                ],
+                "quests": [
+                    {
+                        "id": "q4-4-1",
+                        "name": "Summon Tujen",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-4-2",
+                        "name": "Kill Captain Hartlin (end of zone)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-4-3",
+                        "name": "Take Verisium",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q4-4-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-4-5",
+                        "name": "Talk to Dannig for Verisium Spikes",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-4-6",
+                        "name": "Portal to Journey's End",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-4-7",
+                        "name": "Talk to Freya",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-4-8",
+                        "name": "Activate Karui Totems",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-4-9",
+                        "name": "Kill Omniphobia, Fear Manifest",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-4-10",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-4-11",
+                        "name": "Talk to Tujen (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-4-12",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-4-13",
+                        "name": "Sail to Isle of Kin",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-5",
+                "name": "Isle of Kin",
+                "image": "asset/layouts/act4/A4-01-Isle_of_Kin.webp",
+                "quests": [
+                    {
+                        "id": "q4-5-1",
+                        "name": "Kill The Blind Beast (optional)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-5-2",
+                        "name": "Go to Volcanic Warrens",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-6",
+                "name": "Go to Volcanic Warrens",
+                "image": "asset/layouts/act4/A4-02-Volcanic-Warrens.webp",
+                "quests": [
+                    {
+                        "id": "q4-6-1",
+                        "name": "Kill Krutog, Lord of Kin (end of zone)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-6-2",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-6-3",
+                        "name": "Return to Ship",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-6-4",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-6-5",
+                        "name": "Sail to Abandoned Prison",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-7",
+                "name": "Abandoned Prison",
+                "quests": [
+                    {
+                        "id": "q4-7-1",
+                        "name": "Kill monsters for Chapel Key",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-7-2",
+                        "name": "Open Chapel Door",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-7-3",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-7-4",
+                        "name": "Activate Goddess of Justice (Flask recovery, can be changed)",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-7-5",
+                        "name": "Use Levers",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-7-6",
+                        "name": "Go to Solitary Confinement",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-8",
+                "name": "Solitary Confinement",
+                "image": "asset/layouts/act4/A4-09-Solitary-Confinement.webp",
+                "quests": [
+                    {
+                        "id": "q4-8-1",
+                        "name": "Use Levers",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-8-2",
+                        "name": "Kill The Prisoner",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-8-3",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-8-4",
+                        "name": "Return to Ship",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-8-5",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-8-6",
+                        "name": "Sail to Whakapanu Island",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-9",
+                "name": "Whakapanu Island",
+                "image": "asset/layouts/act4/A4-06-Whakapanu_Island.webp",
+                "quests": [
+                    {
+                        "id": "q4-9-1",
+                        "name": "Go to Singing Caverns",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-10",
+                "name": "Singing Caverns",
+                "image": "asset/layouts/act4/A4-07-Singing-Caverns.webp",
+                "quests": [
+                    {
+                        "id": "q4-10-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-10-2",
+                        "name": "Kill Diamora, Song of Death",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-10-3",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-10-4",
+                        "name": "Return to Ship",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-10-5",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-10-6",
+                        "name": "Sail to Shrike Island",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-11",
+                "name": "Shrike Island",
+                "image": "asset/layouts/act4/A4-05-Shrike Island.webp",
+                "quests": [
+                    {
+                        "id": "q4-11-1",
+                        "name": "Kill Scourge of the Skies (end of zone)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-11-2",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-11-3",
+                        "name": "Return to Ship",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-11-4",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-11-5",
+                        "name": "Sail to Eye of Hinekora",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-12",
+                "name": "Eye of Hinekora",
+                "image": "asset/layouts/act4/A4-10-Eye of Hinekora.webp",
+                "quests": [
+                    {
+                        "id": "q4-12-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-12-2",
+                        "name": "Activate Well of Hinekora",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-12-3",
+                        "name": "Pass 3 tests",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-12-4",
+                        "name": "Click Pay your Respects (Mana boost)",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q4-12-5",
+                        "name": "Go to Halls of the Dead (further down)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-13",
+                "name": "Halls of the Dead",
+                "image": "asset/layouts/act4/A4-11-Halls-of-the-Dead.webp",
+                "quests": [
+                    {
+                        "id": "q4-13-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-13-2",
+                        "name": "Pass Tawhoa's test (Dex/Lightning Resistance)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-13-3",
+                        "name": "Pass Tasalio's test (Int/Cold Resistance)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-13-4",
+                        "name": "Pass Ngamahu's test (Str/Fire Resistance)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-13-5",
+                        "name": "Defeat Yama The White",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-13-6",
+                        "name": "Take Silver Coin",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q4-13-7",
+                        "name": "Go to Trial of the Ancestors",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-14",
+                "name": "Trial of the Ancestors",
+                "quests": [
+                    {
+                        "id": "q4-14-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-14-2",
+                        "name": "Talk to Navali",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-14-3",
+                        "name": "Take Tattoo of Hinekora (2 skillpoints)",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q4-14-4",
+                        "name": "Return to Ship",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-14-5",
+                        "name": "Talk to Makoru",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-14-6",
+                        "name": "Sail to Arastas",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-15",
+                "name": "Arastas",
+                "image": "asset/layouts/act4/A4-12-Arastas.webp",
+                "quests": [
+                    {
+                        "id": "q4-15-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-15-2",
+                        "name": "Talk to Missionary Lorandis",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-15-3",
+                        "name": "Enter church, Exit the church, Destroy forcefield",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q4-15-4",
+                        "name": "Kill Torvian, Hand of the Saviour",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-15-5",
+                        "name": "Go to Excavation",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-16",
+                "name": "Excavation",
+                "image": "asset/layouts/act4/A4-13-Excavation.webp",
+                "quests": [
+                    {
+                        "id": "q4-16-1",
+                        "name": "Kill Benedictus, First Herald of Utopia",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-16-2",
+                        "name": "Enter forge",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q4-16-3",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-16-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-16-5",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-16-6",
+                        "name": "Talk to Rhodri (at the ship)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-16-7",
+                        "name": "Sail to Ngakanu",
+                        "type": "sail"
+                    }
+                ]
+            },
+            {
+                "id": "m4-17",
+                "name": "Ngakanu",
+                "image": "asset/layouts/act4/A4-14-Ngakanu.webp",
+                "quests": [
+                    {
+                        "id": "q4-17-1",
+                        "name": "Go to Heart of the Tribe",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m4-18",
+                "name": "Heart of the Tribe",
+                "image": "asset/layouts/act4/A4-15-Heart-of-the-tribe.webp",
+                "quests": [
+                    {
+                        "id": "q4-18-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-18-2",
+                        "name": "Kill Tavakai, the Chieftain (3 Phase fight)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q4-18-3",
+                        "name": "Portal To Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q4-18-4",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q4-18-5",
+                        "name": "Talk to Hooded One",
+                        "type": "chat"
+                    }
+                ]
+            },
+            {
+                "id": "m4-19",
+                "name": "Finishing Act 4",
+                "quests": [
+                    {
+                        "id": "q4-19-1",
+                        "name": "You can select in any order: Ogham, Vastiri, or Mount Kriara",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act5",
+        "name": "Ogham",
+        "maps": [
+            {
+                "id": "m5-1",
+                "name": "Town (The Refuge)",
+                "quests": [
+                    {
+                        "id": "q5-1-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q5-1-2",
+                        "name": "Go to Scorched Farmlands (bottom exit)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-2",
+                "name": "Scorched Farmlands + Stones of Serle",
+                "quests": [
+                    {
+                        "id": "q5-2-1",
+                        "name": "Kill Heldra of the Black Pyre and Isolde of the White Shroud",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q5-2-2",
+                        "name": "Go to Stones of Serle.",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-3",
+                "name": "Stones of Serle",
+                "quests": [
+                    {
+                        "id": "q5-3-2",
+                        "name": "Activate all Runed Megaliths",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q5-3-3",
+                        "name": "Go to center rune",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q5-3-4",
+                        "name": "Kill Siora, Blade of the Mists",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q5-3-5",
+                        "name": "Talk to Una",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q5-3-6",
+                        "name": "Go to Scorched Farmlands",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q5-3-7",
+                        "name": "Go to darkness",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q5-3-8",
+                        "name": "Go to Blackwood",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-4",
+                "name": "Blackwood",
+                "quests": [
+                    {
+                        "id": "q5-4-1",
+                        "name": "Go to Holten",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-5",
+                "name": "Holten",
+                "quests": [
+                    {
+                        "id": "q5-5-1",
+                        "name": "Go to Wolvenhold",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-6",
+                "name": "Wolvenhold",
+                "quests": [
+                    {
+                        "id": "q5-6-1",
+                        "name": "Kill Oswin, the Dread Warden (2 skillpoints)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q5-6-2",
+                        "name": "Go to Holten > Go to Holten Estate",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m5-7",
+                "name": "Holten Estate",
+                "quests": [
+                    {
+                        "id": "q5-7-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q5-7-2",
+                        "name": "Go upstairs, then downstairs",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q5-7-3",
+                        "name": "Kill Thane Wulfric and Lady Elswyth (ground floor)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q5-7-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q5-7-5",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q5-7-6",
+                        "name": "Talk to Hooded One > Select Next area",
+                        "type": "chat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act6",
+        "name": "Vastiri",
+        "maps": [
+            {
+                "id": "m6-1",
+                "name": "Town (The Khari Bazaar)",
+                "quests": [
+                    {
+                        "id": "q6-1-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-1-2",
+                        "name": "Go to Khari Crossing",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m6-2",
+                "name": "Khari Crossing",
+                "quests": [
+                    {
+                        "id": "q6-2-1",
+                        "name": "Kill Akthi, the Final Sting and Anundr, the Sandworm (top right)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q6-2-2",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-2-3",
+                        "name": "Talk to Risu (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-2-4",
+                        "name": "Return to Khari Crossing",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q6-2-5",
+                        "name": "Go to Skullmaw Stairway (top left)",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q6-2-6",
+                        "name": "Take Molten One's Gift (Life boost)",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q6-2-7",
+                        "name": "Return to Khari Crossing",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q6-2-8",
+                        "name": "Go to Pools of Khatal (bottom left)",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q6-2-9",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-2-10",
+                        "name": "Go to Sel Khari Sanctuary",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m6-3",
+                "name": "Sel Khari Sanctuary",
+                "quests": [
+                    {
+                        "id": "q6-3-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-3-2",
+                        "name": "Kill Elzarah, the Cobra Lord",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q6-3-3",
+                        "name": "Talk to Asala",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-3-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-3-5",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-3-6",
+                        "name": "Go to Khari Crossing",
+                        "type": "run"
+                    },
+                    {
+                        "id": "q6-3-7",
+                        "name": "Go to Galai Gates (left)",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m6-4",
+                "name": "Galai Gates",
+                "quests": [
+                    {
+                        "id": "q6-4-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-4-2",
+                        "name": "Kill Vornas, the Fell Flame",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q6-4-3",
+                        "name": "Go to Qimah",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m6-5",
+                "name": "Qimah",
+                "quests": [
+                    {
+                        "id": "q6-5-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-5-2",
+                        "name": "Activate Seven Pillars (Various boosts, can be changed)",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q6-5-3",
+                        "name": "Summon Jado (end of zone)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-5-4",
+                        "name": "Go to Qimah Reservoir",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m6-6",
+                "name": "Qimah Reservoir",
+                "quests": [
+                    {
+                        "id": "q6-6-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-6-2",
+                        "name": "Kill Azmadi, the Faridun Prince",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q6-6-3",
+                        "name": "Activate Grand Barya",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q6-6-4",
+                        "name": "Talk to Jado",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-6-5",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q6-6-6",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q6-6-7",
+                        "name": "Talk to Hooded One > Select Next area",
+                        "type": "chat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act7",
+        "name": "Mount Kriara",
+        "maps": [
+            {
+                "id": "m7-1",
+                "name": "Town (The Glade)",
+                "quests": [
+                    {
+                        "id": "q7-1-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q7-1-2",
+                        "name": "Go to Ashen Forest",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-2",
+                "name": "Ashen Forest",
+                "quests": [
+                    {
+                        "id": "q7-2-1",
+                        "name": "Go to Kriar Village",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-3",
+                "name": "Kriar Village",
+                "quests": [
+                    {
+                        "id": "q7-3-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-3-2",
+                        "name": "Kill Lythara, the Wayward Spear (40 Spirit boost)",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q7-3-3",
+                        "name": "Go to Glacial Tarn",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-4",
+                "name": "Glacial Tarn",
+                "quests": [
+                    {
+                        "id": "q7-4-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-4-2",
+                        "name": "Go to Howling Caves",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-5",
+                "name": "Howling Caves",
+                "quests": [
+                    {
+                        "id": "q7-5-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-5-2",
+                        "name": "Kill The Abominable Yeti",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q7-5-3",
+                        "name": "Take Icy Tusks",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q7-5-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-5-5",
+                        "name": "Talk to Hilda (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q7-5-6",
+                        "name": "Portal to Glacial Tarn",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m7-6",
+                "name": "Glacial Tarn (2nd time)",
+                "quests": [
+                    {
+                        "id": "q7-6-1",
+                        "name": "Kill Rakkar, the Frozen Talon",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q7-6-2",
+                        "name": "Go to Kriar Peaks",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-7",
+                "name": "Kriar Peaks",
+                "quests": [
+                    {
+                        "id": "q7-7-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-7-2",
+                        "name": "Take gift from Elder Madox",
+                        "type": "loot"
+                    },
+                    {
+                        "id": "q7-7-3",
+                        "name": "Go to Etched Ravine",
+                        "type": "run"
+                    }
+                ]
+            },
+            {
+                "id": "m7-8",
+                "name": "Etched Ravine",
+                "quests": [
+                    {
+                        "id": "q7-8-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-8-2",
+                        "name": "Kill Stormgore, the Guardian",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q7-8-3",
+                        "name": "Go to Cuachic Vault",
+                        "type": "portal"
+                    }
+                ]
+            },
+            {
+                "id": "m7-9",
+                "name": "Cuachic Vault",
+                "quests": [
+                    {
+                        "id": "q7-9-1",
+                        "name": "Tag Waypoint",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-9-2",
+                        "name": "Kill Zelina, Blood Priestess and Zolin, Blood Priest",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q7-9-3",
+                        "name": "Summon Doryani",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q7-9-4",
+                        "name": "Portal to Town",
+                        "type": "portal"
+                    },
+                    {
+                        "id": "q7-9-5",
+                        "name": "Talk to Hooded One > Select Next area",
+                        "type": "chat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "act8",
+        "name": "Endgame",
+        "maps": [
+            {
+                "id": "m8-1",
+                "name": "Kingsmarch (Act 4 town)",
+                "quests": [
+                    {
+                        "id": "q8-1-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q8-1-2",
+                        "name": "Talk to Hooded One (2 skillpoints)",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q8-1-3",
+                        "name": "Travel to Oriath",
+                        "type": "chat"
+                    }
+                ]
+            },
+            {
+                "id": "m8-2",
+                "name": "The Ziggurat Refuge",
+                "quests": [
+                    {
+                        "id": "q8-2-1",
+                        "name": "Talk to NPCs",
+                        "type": "chat"
+                    },
+                    {
+                        "id": "q8-2-2",
+                        "name": "Run one map in Ziggurat to unlock maps",
+                        "type": "setting"
+                    },
+                    {
+                        "id": "q8-2-3",
+                        "name": "Start mapping in hideout. ( Finally you can start playing the game. Well done. )",
+                        "type": "kill"
+                    },
+                    {
+                        "id": "q8-2-4",
+                        "name": "400th quest. We can't leave it at 399, can we?",
+                        "type": "warning"
+                    }
+                ]
+            }
+        ]
+    }
+]

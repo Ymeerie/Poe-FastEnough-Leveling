@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedrun Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="stat-value"><span id="completedCount">0</span> / <span id="totalCount">0</span></span>
+            </div>
+        </div>
+        <button id="resetBtn" class="reset-btn">Reset All</button>
+        <p class="author">
+            Layouts: <a href="https://mobalytics.gg/" target="_blank">Mobalytics</a>/
+            <a href="https://mobalytics.gg/poe-2/profile/lolcohol" target="_blank">@Lolcohol</a> -
+            Guide: <a href="https://www.reddit.com/user/youGottaBeKiddink/" target="_blank">u/youGottaBeKiddink</a>/
+            <a href="https://www.poe2wiki.net/wiki/Guide:Acts_quick_guide" target="_blank">Poe2wiki</a>
+        </p>
+    </header>
+    <div class="container">
+        <div class="acts-container" id="actsContainer">
+            <!-- Acts will be generated here by JavaScript -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
